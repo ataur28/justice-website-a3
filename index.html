@@ -17,14 +17,14 @@
     <script src="https://kit.fontawesome.com/4ced73037e.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container mx-auto">
-    <header>
+<body>
+    <header class="container mx-auto">
         <!-- nav -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand fs-4 fw-bolder text-dark" href="#">
-                    <img class="h-25 w-25 pe-1.5" src="images/business.png" alt="">
-                    Justice</a>
+                    <img class="h-25 w-75 pe-1.5" src="images/logo2.png" alt="">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -73,7 +73,7 @@
             </form>
         </div>
     </header>
-    <main>
+    <main class="container mx-auto">
         <!-- The legal Practice Area section  -->
         <section class="container mt-5 pt-5 text-center ">
             <h2 class="fs-2 fw-bolder text-dark pb-3">The Legal Practice Area</h2>
@@ -322,10 +322,14 @@
                 </div>
                 <div>
                     <form>
-                        <input class="w-75 mt-4 mb-4 p-2 bg-secondary-subtle" type="text" name="" id="" placeholder="Your Name"><br>
-                        <input class="w-75 mt-4 mb-4 p-2 bg-secondary-subtle" type="email" name="" placeholder="Your Email" id=""><br>
-                        <input class="w-75 mt-4 mb-4 p-2 bg-secondary-subtle" type="text" name="" id="" placeholder="Subject"><br>
-                        <textarea class="w-75 mt-4 mb-4 p-2 bg-secondary-subtle" id="w3review" placeholder="Your Message" name="" rows="4" cols="50"></textarea><br>
+                        <input class="w-75 mt-4 mb-4 p-2 bg-secondary-subtle" type="text" name="" id=""
+                            placeholder="Your Name"><br>
+                        <input class="w-75 mt-4 mb-4 p-2 bg-secondary-subtle" type="email" name=""
+                            placeholder="Your Email" id=""><br>
+                        <input class="w-75 mt-4 mb-4 p-2 bg-secondary-subtle" type="text" name="" id=""
+                            placeholder="Subject"><br>
+                        <textarea class="w-75 mt-4 mb-4 p-2 bg-secondary-subtle" id="w3review"
+                            placeholder="Your Message" name="" rows="4" cols="50"></textarea><br>
                         <button class="btn btn-danger w-75 mt-4 mb-4 p-2 fs-2 fw-semibold" type="submit">Submit</button>
 
                     </form>
@@ -335,7 +339,57 @@
         </section>
 
     </main>
-    <footer>
+    <footer class="mt-5 pt-5 bg-black">
+        <div class="container mx-auto">
+            <div class=" row text-white pb-5 mb-5 justify-content-between">
+                <div class="text-center mt-5 col-md-3">
+                    <img class="img-fluid w-75 pb-3" src="images/logo.png" alt="">
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                </div>
+                <div class="mt-5 col-md-3">
+                    <h3 class="-md-3fs-4 fw-semibold pb-3">Usefull Link</h3>
+
+                    <ul class=" navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold legal-nab-spess ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="mt-5 col-md-3">
+                    <h3 class="fs-4 fw-semibold pb-3">Contact Now</h3>
+                    <p>555 4th 5t NW, Washington</p>
+                    <p class="pb-2">DC 20530, United States</p>
+                    <p>+88 01750 000 000</p>
+                    <p class="pb-2">+88 01750 000 000</p>
+                    <p>info@gmail.com</p>
+                    <p>info@gmail.com</p>
+                </div>
+                <div class="mt-5 col-md-3">
+                    <h3 class="fs-4 fw-semibold pb-3">Subscribe</h3>
+                    <p class="pb-4">Subscribe for our latest & Articles. We Won't Give You Spam Mails</p>
+
+                    <form class="d-flex position-relative" role="search">
+                        <input class="form-control " type="search" placeholder="Search your services" aria-label="Search">
+                        <button class="btn btn-danger fw-semibold legal-footer-btn position-absolute end-0 " type="submit"><i class="fa-brands fa-telegram"></i></button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
 
     </footer>
 
