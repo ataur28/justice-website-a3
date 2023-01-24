@@ -1,0 +1,11 @@
+.legal-nab-spess{
+    margin-right: 20%;
+}
+
+.legal-banar-img{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
